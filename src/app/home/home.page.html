@@ -10,15 +10,13 @@
           <h2>Login</h2>
 
           <div class="input-box">
-            <i class="far fa-envelope icon"></i> <!-- Clase correcta para Font Awesome -->
-            <input type="email" required>
-            <label for="">Email</label>
+            <i class="far fa-envelope icon" id="toggleEmail" ></i> <!-- Clase correcta para Font Awesome -->
+            <ion-input type="email" color="light" label="Email" labelPlacement="floating" ></ion-input>
           </div>
 
           <div class="input-box">
-            <i class="fas fa-lock icon"></i> <!-- Clase correcta para Font Awesome -->
-            <input type="password" required>
-            <label for="">Password</label>
+            <i class="fas fa-eye icon-eye" id="togglePassword"></i>
+             <ion-input type="password" color="light" label="Password" labelPlacement="floating" ></ion-input>
           </div>
 
           <div class="forget">
@@ -34,7 +32,7 @@
           <div class="registrer">
             <p>
               Don't have a account
-              <a href="">Register</a>
+              <a  class="url">Register</a>
             </p>
           </div>
 
